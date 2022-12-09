@@ -1,0 +1,54 @@
+#my-label{
+-fx-font: 24 arial;
+-fx-font-weight: bold;
+}
+
+#my-text{
+-fx-font: 14 arial;
+}
+
+#interativos:hover{
+ -fx-background-color: #FF7F50;
+}
+
+#empty{
+}
+
+#pane-Calculos{
+    -fx-background-image: url("../images/Calculos.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#pane-Palavras{
+    -fx-background-image: url("../images/Palavras.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#pane-Termino{
+    -fx-background-image: url("../images/GameOver.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-font-weight: bold;
+}
+
+#pane-Comeco{
+    -fx-background-image: url("../images/GameStart.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-font-weight: bold;
+}
+
+#my-grid{
+-fx-background-color: #0000b3;
+}
+
